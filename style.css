@@ -251,7 +251,6 @@ img {
 
 .contact-form {
   margin-top: 20px;
-  background-color: #ececea;
   text-align: center;
 }
 
@@ -263,7 +262,7 @@ img {
 input {
   width: 400px;
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   padding: 20px;
   font-size: 18px;
   border: 1px solid #dee7ec;
@@ -283,6 +282,11 @@ textarea {
   border-radius: 10px;
   color: #fff;
   height: 60px;
+}
+
+.contact-submit:hover {
+  opacity: 1;
+  cursor: pointer;
 }
 
 .container-footer {
